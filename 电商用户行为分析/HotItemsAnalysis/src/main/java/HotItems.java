@@ -95,7 +95,7 @@ public class HotItems {
 
         // source
         // input data
-        DataStreamSource<String> stringDataStreamSource = env.readTextFile("/Applications/Study/面试/电商用户行为分析/HotItemsAnalysis/src/main/resources/UserBehavior.csv");
+        DataStreamSource<String> stringDataStreamSource = env.readTextFile("data/UserBehavior.csv");
 
         // transform
         // 将原始数据变成UserBehavior类型

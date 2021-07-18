@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9cc47497-535c-4e01-a42f-132efb3c0e4f" name="Default Changelist" comment="" />
+    <list default="true" id="9cc47497-535c-4e01-a42f-132efb3c0e4f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/$CACHE_FILE$" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotItemsAnalysis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HotItemsAnalysis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotItemsAnalysis/src/main/java/HotItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/HotItemsAnalysis/src/main/java/HotItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotItemsAnalysis/src/main/resources/UserBehavior.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/UserBehavior.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotItemsAnalysis/target/classes/HotItems.class" beforeDir="false" afterPath="$PROJECT_DIR$/HotItemsAnalysis/target/classes/HotItems.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotItemsAnalysis/target/classes/UserBehavior.csv" beforeDir="false" afterPath="$PROJECT_DIR$/HotItemsAnalysis/target/classes/UserBehavior.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/电商用户行为分析.iml" beforeDir="false" afterPath="$PROJECT_DIR$/电商用户行为分析.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,9 +35,8 @@
       </list>
     </option>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://scala-decompiled/WindowFunction.decompiled.java" root0="SKIP_HIGHLIGHTING" />
-    <setting file="dummy://scala-decompiled/WindowFunction.decompiled.java" root0="SKIP_HIGHLIGHTING" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -38,12 +55,14 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1vQPtmpw1QwbHS5DfH4wf6SYyIJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/HotItemsAnalysis/src/main/resources" />
@@ -88,6 +107,7 @@
       <option name="presentableId" value="Default" />
       <updated>1626491556161</updated>
       <workItem from="1626491559997" duration="16576000" />
+      <workItem from="1626614986273" duration="246000" />
     </task>
     <servers />
   </component>
@@ -99,22 +119,22 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="665" y="217" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1626609814142" />
-    <state width="1737" height="304" key="GridCell.Tab.0.bottom" timestamp="1626611973884">
+    <state width="1737" height="304" key="GridCell.Tab.0.bottom" timestamp="1626615236823">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1737" height="304" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1626611973884" />
-    <state width="1737" height="304" key="GridCell.Tab.0.center" timestamp="1626611973883">
+    <state width="1737" height="304" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1626615236823" />
+    <state width="1737" height="304" key="GridCell.Tab.0.center" timestamp="1626615236822">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1737" height="304" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1626611973883" />
-    <state width="1737" height="304" key="GridCell.Tab.0.left" timestamp="1626611973883">
+    <state width="1737" height="304" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1626615236822" />
+    <state width="1737" height="304" key="GridCell.Tab.0.left" timestamp="1626615236821">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1737" height="304" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1626611973883" />
-    <state width="1737" height="304" key="GridCell.Tab.0.right" timestamp="1626611973884">
+    <state width="1737" height="304" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1626615236821" />
+    <state width="1737" height="304" key="GridCell.Tab.0.right" timestamp="1626615236822">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1737" height="304" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1626611973884" />
+    <state width="1737" height="304" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1626615236822" />
     <state x="296" y="111" key="SettingsEditor" timestamp="1626491613918">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>

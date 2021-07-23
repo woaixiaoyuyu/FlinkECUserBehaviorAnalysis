@@ -109,4 +109,6 @@ class UvCountByProcess extends ProcessAllWindowFunction<UserBehavior, UVCount, T
         collector.collect(new UVCount(context.window().getEnd(),cnt));
         mapState.clear();
     }
+
+
 }

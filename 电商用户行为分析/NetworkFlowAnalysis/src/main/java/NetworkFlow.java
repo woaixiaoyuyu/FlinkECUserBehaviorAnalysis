@@ -1,10 +1,9 @@
+import com.google.gson.internal.$Gson$Preconditions;
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
-import org.apache.flink.api.common.functions.FilterFunction;
 import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.api.common.functions.AggregateFunction;
 import org.apache.flink.api.common.state.ListState;
 import org.apache.flink.api.common.state.ListStateDescriptor;
-import org.apache.flink.api.java.aggregation.AggregationFunction;
 import org.apache.flink.configuration.Configuration;
 import org.apache.flink.streaming.api.TimeCharacteristic;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
@@ -81,6 +80,9 @@ public class NetworkFlow {
         // 每隔5秒，输出最近10分钟内访问量最多的前N个URL
 
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
+        env.setParallelism(1);
+        // 设置时间特征为事件事件
+        env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime);
 
         // 38.99.236.50 - - 20/05/2015:21:05:31 +0000 GET /favicon.ico
         DataStreamSource<String> stringDataStreamSource = env.readTextFile("data/apache.log");
@@ -92,6 +94,7 @@ public class NetworkFlow {
                 SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy:HH:mm:ss");
                 Date parse = simpleDateFormat.parse(s1[3].trim());
                 long time = parse.getTime();
+//                System.out.println(time);
                 return new ApacheLogEvent(s1[0].trim(), s1[1].trim(), time, s1[5].trim(), s1[6].trim());
             }
         });
@@ -100,13 +103,14 @@ public class NetworkFlow {
                 .<ApacheLogEvent>forBoundedOutOfOrderness(Duration.ofSeconds(60))
                 .withTimestampAssigner((event, timeStamp) -> event.eventTime));
 
-        logWatermark.keyBy(value->value.url).timeWindow(Time.minutes(10),Time.seconds(5))
+        logWatermark.keyBy(value->value.url)
+                .timeWindow(Time.minutes(10),Time.seconds(5))
                 .aggregate(new CountAgg(),new WindowResult())
                 .keyBy(value->value.windowEnd)
                 .process(new TopNHotUrls(5))
-                .print("HotUrl");
+                .print("print");
 
-        env.execute("HotUrl");
+        env.execute();
     }
 }
 
@@ -164,21 +168,25 @@ class TopNHotUrls extends KeyedProcessFunction<Long,UrlViewCount,String> {
     @Override
     public void onTimer(long timestamp, OnTimerContext ctx, Collector<String> out) throws Exception {
         List<UrlViewCount> list = new ArrayList<>();
-        for(UrlViewCount elem:urlHot.get()) {
+        Iterable<UrlViewCount> urlViewCounts = urlHot.get();
+        for(UrlViewCount elem:urlViewCounts) {
             list.add(elem);
         }
         urlHot.clear();
         Collections.sort(list, new Comparator<UrlViewCount>() {
             @Override
             public int compare(UrlViewCount o1, UrlViewCount o2) {
-                if(o1.count<o2.count) return 1;
-                else return -1;
+                if(o1.count>o2.count) return -1;
+                else if(o1.count==o2.count) return 0;
+                else return 1;
             }
         });
         int cnt = 0;
         List<UrlViewCount> ans = new ArrayList<>();
         while (cnt<n) {
-            ans.add(list.get(cnt));
+            if(list.isEmpty()) break;
+            ans.add(list.get(0));
+            list.remove(0);
             cnt++;
         }
         StringBuilder result = new StringBuilder();

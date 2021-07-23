@@ -201,12 +201,8 @@ class TopNHotItems extends KeyedProcessFunction<Long,ItemViewCount,String> {
         // 已经收集到所有的数据，首先把所有的数据放到一个 List 中
         List<ItemViewCount> allItems = new ArrayList<>();
         Iterable<ItemViewCount> itemViewCounts = itemState.get();
-        Iterator<ItemViewCount> iterator = itemViewCounts.iterator();
-        int cnt=0;
-        while (iterator.hasNext()) {
-            if(cnt>=3) break;
-            allItems.add(iterator.next());
-            cnt++;
+        for (ItemViewCount itemViewCount : itemViewCounts) {
+            allItems.add(itemViewCount);
         }
         // 清除状态
         itemState.clear();
@@ -219,11 +215,17 @@ class TopNHotItems extends KeyedProcessFunction<Long,ItemViewCount,String> {
                 else return 1;
             }
         });
+        List<ItemViewCount> ans = new ArrayList<>();
+        int cnt=0;
+        while (cnt<n) {
+            ans.add(allItems.get(cnt));
+            cnt++;
+        }
         StringBuilder result = new StringBuilder();
         result.append("======================================================\n");
         // 触发定时器时，我们多设置了1秒的延迟，这里我们将时间减去0.1获取到最精确的时间
         result.append("时间：").append(new Timestamp(timestamp - 1)).append("\n");
-        for(ItemViewCount elem:allItems) result.append(elem.toString());
+        for(ItemViewCount elem:ans) result.append(elem.toString());
         result.append("\n");
         result.append("======================================================\n");
         out.collect(result.toString());

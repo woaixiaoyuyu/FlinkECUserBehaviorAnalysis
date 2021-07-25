@@ -3,6 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/HotItemsAnalysis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/HotItemsAnalysis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LoginFailDetect/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LoginFailDetect/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MarketAnalysis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MarketAnalysis/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/NetworkFlowAnalysis/src/main/java" charset="UTF-8" />

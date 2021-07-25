@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9cc47497-535c-4e01-a42f-132efb3c0e4f" name="Default Changelist" comment="" />
+    <list default="true" id="9cc47497-535c-4e01-a42f-132efb3c0e4f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/MarketAnalysis/src/main/java/AdStatisticsByGeo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/AdClickLog.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,17 +72,17 @@
       <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AppMarketingByChannel">
-    <configuration name="AppMarketingByChannel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AppMarketingByChannel" />
+  <component name="RunManager" selected="Application.AdStatisticsByGeo">
+    <configuration name="AdStatisticsByGeo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AdStatisticsByGeo" />
       <module name="MarketAnalysis" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NetworkFlow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NetworkFlow" />
-      <module name="NetworkFlowAnalysis" />
+    <configuration name="AppMarketingByChannel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AppMarketingByChannel" />
+      <module name="MarketAnalysis" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -106,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AdStatisticsByGeo" />
         <item itemvalue="Application.AppMarketingByChannel" />
         <item itemvalue="Application.UvWithBloomFilter" />
         <item itemvalue="Application.UniqueVisitor" />
         <item itemvalue="Application.PageView" />
-        <item itemvalue="Application.NetworkFlow" />
       </list>
     </recent_temporary>
   </component>
@@ -131,6 +135,7 @@
       <workItem from="1627034592776" duration="1957000" />
       <workItem from="1627045420337" duration="6965000" />
       <workItem from="1627109725053" duration="16233000" />
+      <workItem from="1627211523266" duration="2434000" />
     </task>
     <servers />
   </component>
@@ -138,11 +143,11 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="665" y="217" key="#com.intellij.ide.util.MemberChooser" timestamp="1627209502434">
+    <state x="665" y="217" key="#com.intellij.ide.util.MemberChooser" timestamp="1627218390711">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="665" y="217" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120/1792.0.1920.1080@0.0.1792.1120" timestamp="1627031735088" />
-    <state x="665" y="217" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1627209502434" />
+    <state x="665" y="217" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1627218390711" />
     <state x="629" y="404" width="534" height="324" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1626966882351">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>

@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cc47497-535c-4e01-a42f-132efb3c0e4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LoginFailDetect/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MarketAnalysis/src/main/java/AdAnalysisByProvinceBlack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/LoginLog.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LoginFailDetect/src/main/java/LoginFailTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MarketAnalysis/target/classes/AdCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/MarketAnalysis/target/classes/AdCount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +71,7 @@
       <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AdAnalysisByProvinceBlack">
+  <component name="RunManager" selected="Application.LoginFailTwo">
     <configuration name="AdAnalysisByProvinceBlack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AdAnalysisByProvinceBlack" />
       <module name="MarketAnalysis" />
@@ -99,9 +93,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniqueVisitor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UniqueVisitor" />
-      <module name="NetworkFlowAnalysis" />
+    <configuration name="LoginFailTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LoginFailTwo" />
+      <module name="LoginFailDetect" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LoginFailTwo" />
         <item itemvalue="Application.AdAnalysisByProvinceBlack" />
         <item itemvalue="Application.AdStatisticsByGeo" />
         <item itemvalue="Application.AppMarketingByChannel" />
         <item itemvalue="Application.UvWithBloomFilter" />
-        <item itemvalue="Application.UniqueVisitor" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +134,10 @@
       <workItem from="1627034592776" duration="1957000" />
       <workItem from="1627045420337" duration="6965000" />
       <workItem from="1627109725053" duration="16233000" />
-      <workItem from="1627211523266" duration="7657000" />
+      <workItem from="1627211523266" duration="7733000" />
+      <workItem from="1627269626294" duration="981000" />
+      <workItem from="1627272219085" duration="735000" />
+      <workItem from="1627274167889" duration="3341000" />
     </task>
     <servers />
   </component>
@@ -148,10 +145,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="665" y="217" key="#com.intellij.ide.util.MemberChooser" timestamp="1627225365857">
+    <state x="665" y="217" key="#com.intellij.ide.util.MemberChooser" timestamp="1627281002989">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="665" y="217" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120/1792.0.1920.1080@0.0.1792.1120" timestamp="1627031735088" />
+    <state x="665" y="217" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120/1792.0.1920.1080@0.0.1792.1120" timestamp="1627281002989" />
     <state x="665" y="217" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1627225365857" />
     <state x="629" y="404" width="534" height="324" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1626966882351">
       <screen x="0" y="0" width="1792" height="1120" />
@@ -161,35 +158,35 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="253" y="98" key="CommitChangelistDialog2/0.0.1792.1120/1792.0.1920.1080@0.0.1792.1120" timestamp="1627036049342" />
-    <state width="1737" height="304" key="GridCell.Tab.0.bottom" timestamp="1627226789310">
+    <state width="1737" height="304" key="GridCell.Tab.0.bottom" timestamp="1627227683560">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1737" height="304" key="GridCell.Tab.0.bottom/0.0.1792.1120/1792.0.1920.1080@0.0.1792.1120" timestamp="1627036576261" />
-    <state width="1737" height="304" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1627226789310" />
+    <state width="1737" height="304" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1627227683560" />
     <state width="1737" height="304" key="GridCell.Tab.0.bottom/0.23.1792.1030/1792.23.1920.1057@0.23.1792.1030" timestamp="1627032404495" />
     <state width="1737" height="304" key="GridCell.Tab.0.bottom/0.23.1792.1030@0.23.1792.1030" timestamp="1627135947026" />
     <state width="1737" height="304" key="GridCell.Tab.0.bottom/0.23.1792.1042/1792.23.1920.1057@0.23.1792.1042" timestamp="1626946868033" />
-    <state width="1737" height="304" key="GridCell.Tab.0.center" timestamp="1627226789306">
+    <state width="1737" height="304" key="GridCell.Tab.0.center" timestamp="1627227683559">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1737" height="304" key="GridCell.Tab.0.center/0.0.1792.1120/1792.0.1920.1080@0.0.1792.1120" timestamp="1627036576259" />
-    <state width="1737" height="304" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1627226789306" />
+    <state width="1737" height="304" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1627227683559" />
     <state width="1737" height="304" key="GridCell.Tab.0.center/0.23.1792.1030/1792.23.1920.1057@0.23.1792.1030" timestamp="1627032404493" />
     <state width="1737" height="304" key="GridCell.Tab.0.center/0.23.1792.1030@0.23.1792.1030" timestamp="1627135947025" />
     <state width="1737" height="304" key="GridCell.Tab.0.center/0.23.1792.1042/1792.23.1920.1057@0.23.1792.1042" timestamp="1626946868032" />
-    <state width="1737" height="304" key="GridCell.Tab.0.left" timestamp="1627226789306">
+    <state width="1737" height="304" key="GridCell.Tab.0.left" timestamp="1627227683559">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1737" height="304" key="GridCell.Tab.0.left/0.0.1792.1120/1792.0.1920.1080@0.0.1792.1120" timestamp="1627036576258" />
-    <state width="1737" height="304" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1627226789306" />
+    <state width="1737" height="304" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1627227683559" />
     <state width="1737" height="304" key="GridCell.Tab.0.left/0.23.1792.1030/1792.23.1920.1057@0.23.1792.1030" timestamp="1627032404493" />
     <state width="1737" height="304" key="GridCell.Tab.0.left/0.23.1792.1030@0.23.1792.1030" timestamp="1627135947024" />
     <state width="1737" height="304" key="GridCell.Tab.0.left/0.23.1792.1042/1792.23.1920.1057@0.23.1792.1042" timestamp="1626946868031" />
-    <state width="1737" height="304" key="GridCell.Tab.0.right" timestamp="1627226789309">
+    <state width="1737" height="304" key="GridCell.Tab.0.right" timestamp="1627227683559">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1737" height="304" key="GridCell.Tab.0.right/0.0.1792.1120/1792.0.1920.1080@0.0.1792.1120" timestamp="1627036576260" />
-    <state width="1737" height="304" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1627226789309" />
+    <state width="1737" height="304" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1627227683559" />
     <state width="1737" height="304" key="GridCell.Tab.0.right/0.23.1792.1030/1792.23.1920.1057@0.23.1792.1030" timestamp="1627032404494" />
     <state width="1737" height="304" key="GridCell.Tab.0.right/0.23.1792.1030@0.23.1792.1030" timestamp="1627135947026" />
     <state width="1737" height="304" key="GridCell.Tab.0.right/0.23.1792.1042/1792.23.1920.1057@0.23.1792.1042" timestamp="1626946868033" />
@@ -197,10 +194,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="296" y="111" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1626491613918" />
-    <state x="532" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1627211522265">
+    <state x="532" y="354" key="com.intellij.ide.util.TipDialog" timestamp="1627274167716">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="532" y="354" key="com.intellij.ide.util.TipDialog/0.0.1792.1120/1792.0.1920.1080@0.0.1792.1120" timestamp="1627034592654" />
+    <state x="532" y="354" key="com.intellij.ide.util.TipDialog/0.0.1792.1120/1792.0.1920.1080@0.0.1792.1120" timestamp="1627274167716" />
     <state x="532" y="349" key="com.intellij.ide.util.TipDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1627211522265" />
     <state x="135" y="192" key="new project wizard" timestamp="1627227153520">
       <screen x="0" y="0" width="1792" height="1120" />

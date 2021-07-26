@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cc47497-535c-4e01-a42f-132efb3c0e4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LoginFailDetect/src/main/java/LoginFailTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginFailDetect/target/classes/LoginEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginFailDetect/target/classes/LoginEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginFailDetect/target/classes/Warning.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoginFailDetect/target/classes/Warning.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +72,7 @@
       <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LoginFailTwo">
+  <component name="RunManager" selected="Application.LoginFailWithCep">
     <configuration name="AdAnalysisByProvinceBlack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AdAnalysisByProvinceBlack" />
       <module name="MarketAnalysis" />
@@ -100,20 +101,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UvWithBloomFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UvWithBloomFilter" />
-      <module name="NetworkFlowAnalysis" />
+    <configuration name="LoginFailWithCep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LoginFailWithCep" />
+      <module name="LoginFailDetect" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LoginFailWithCep" />
         <item itemvalue="Application.LoginFailTwo" />
         <item itemvalue="Application.AdAnalysisByProvinceBlack" />
         <item itemvalue="Application.AdStatisticsByGeo" />
         <item itemvalue="Application.AppMarketingByChannel" />
-        <item itemvalue="Application.UvWithBloomFilter" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +138,7 @@
       <workItem from="1627211523266" duration="7733000" />
       <workItem from="1627269626294" duration="981000" />
       <workItem from="1627272219085" duration="735000" />
-      <workItem from="1627274167889" duration="3341000" />
+      <workItem from="1627274167889" duration="7792000" />
     </task>
     <servers />
   </component>
@@ -145,10 +146,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="665" y="217" key="#com.intellij.ide.util.MemberChooser" timestamp="1627281002989">
+    <state x="665" y="217" key="#com.intellij.ide.util.MemberChooser" timestamp="1627294241775">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="665" y="217" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120/1792.0.1920.1080@0.0.1792.1120" timestamp="1627281002989" />
+    <state x="665" y="217" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120/1792.0.1920.1080@0.0.1792.1120" timestamp="1627294241775" />
     <state x="665" y="217" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1627225365857" />
     <state x="629" y="404" width="534" height="324" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1626966882351">
       <screen x="0" y="0" width="1792" height="1120" />
@@ -158,34 +159,34 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="253" y="98" key="CommitChangelistDialog2/0.0.1792.1120/1792.0.1920.1080@0.0.1792.1120" timestamp="1627036049342" />
-    <state width="1737" height="304" key="GridCell.Tab.0.bottom" timestamp="1627227683560">
+    <state width="1737" height="304" key="GridCell.Tab.0.bottom" timestamp="1627294376197">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1737" height="304" key="GridCell.Tab.0.bottom/0.0.1792.1120/1792.0.1920.1080@0.0.1792.1120" timestamp="1627036576261" />
+    <state width="1737" height="304" key="GridCell.Tab.0.bottom/0.0.1792.1120/1792.0.1920.1080@0.0.1792.1120" timestamp="1627294376197" />
     <state width="1737" height="304" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1627227683560" />
     <state width="1737" height="304" key="GridCell.Tab.0.bottom/0.23.1792.1030/1792.23.1920.1057@0.23.1792.1030" timestamp="1627032404495" />
     <state width="1737" height="304" key="GridCell.Tab.0.bottom/0.23.1792.1030@0.23.1792.1030" timestamp="1627135947026" />
     <state width="1737" height="304" key="GridCell.Tab.0.bottom/0.23.1792.1042/1792.23.1920.1057@0.23.1792.1042" timestamp="1626946868033" />
-    <state width="1737" height="304" key="GridCell.Tab.0.center" timestamp="1627227683559">
+    <state width="1737" height="304" key="GridCell.Tab.0.center" timestamp="1627294376196">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1737" height="304" key="GridCell.Tab.0.center/0.0.1792.1120/1792.0.1920.1080@0.0.1792.1120" timestamp="1627036576259" />
+    <state width="1737" height="304" key="GridCell.Tab.0.center/0.0.1792.1120/1792.0.1920.1080@0.0.1792.1120" timestamp="1627294376196" />
     <state width="1737" height="304" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1627227683559" />
     <state width="1737" height="304" key="GridCell.Tab.0.center/0.23.1792.1030/1792.23.1920.1057@0.23.1792.1030" timestamp="1627032404493" />
     <state width="1737" height="304" key="GridCell.Tab.0.center/0.23.1792.1030@0.23.1792.1030" timestamp="1627135947025" />
     <state width="1737" height="304" key="GridCell.Tab.0.center/0.23.1792.1042/1792.23.1920.1057@0.23.1792.1042" timestamp="1626946868032" />
-    <state width="1737" height="304" key="GridCell.Tab.0.left" timestamp="1627227683559">
+    <state width="1737" height="304" key="GridCell.Tab.0.left" timestamp="1627294376195">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1737" height="304" key="GridCell.Tab.0.left/0.0.1792.1120/1792.0.1920.1080@0.0.1792.1120" timestamp="1627036576258" />
+    <state width="1737" height="304" key="GridCell.Tab.0.left/0.0.1792.1120/1792.0.1920.1080@0.0.1792.1120" timestamp="1627294376195" />
     <state width="1737" height="304" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1627227683559" />
     <state width="1737" height="304" key="GridCell.Tab.0.left/0.23.1792.1030/1792.23.1920.1057@0.23.1792.1030" timestamp="1627032404493" />
     <state width="1737" height="304" key="GridCell.Tab.0.left/0.23.1792.1030@0.23.1792.1030" timestamp="1627135947024" />
     <state width="1737" height="304" key="GridCell.Tab.0.left/0.23.1792.1042/1792.23.1920.1057@0.23.1792.1042" timestamp="1626946868031" />
-    <state width="1737" height="304" key="GridCell.Tab.0.right" timestamp="1627227683559">
+    <state width="1737" height="304" key="GridCell.Tab.0.right" timestamp="1627294376197">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1737" height="304" key="GridCell.Tab.0.right/0.0.1792.1120/1792.0.1920.1080@0.0.1792.1120" timestamp="1627036576260" />
+    <state width="1737" height="304" key="GridCell.Tab.0.right/0.0.1792.1120/1792.0.1920.1080@0.0.1792.1120" timestamp="1627294376197" />
     <state width="1737" height="304" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1627227683559" />
     <state width="1737" height="304" key="GridCell.Tab.0.right/0.23.1792.1030/1792.23.1920.1057@0.23.1792.1030" timestamp="1627032404494" />
     <state width="1737" height="304" key="GridCell.Tab.0.right/0.23.1792.1030@0.23.1792.1030" timestamp="1627135947026" />

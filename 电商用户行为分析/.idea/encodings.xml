@@ -9,5 +9,7 @@
     <file url="file://$PROJECT_DIR$/MarketAnalysis/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/NetworkFlowAnalysis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/NetworkFlowAnalysis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OrderTimeoutDetect/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OrderTimeoutDetect/src/main/resources" charset="UTF-8" />
   </component>
 </project>
